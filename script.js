@@ -8,6 +8,7 @@ async function loadPigments() {
         const data = await response.json();
         pigmentsData = data.pigment;
         console.log('Pigment laddade:', pigmentsData.length);
+        console.log('Första pigmentet:', pigmentsData[0]); // Test
     } catch (error) {
         console.error('Kunde inte ladda pigment:', error);
         document.getElementById('results').innerHTML = 
@@ -51,7 +52,7 @@ function applyFilters() {
     displayResults(filtered);
 }
 
-// Visa resultat i grid
+// Visa resultat
 function displayResults(pigments) {
     const resultsContainer = document.getElementById('results');
     
@@ -84,26 +85,6 @@ function displayResults(pigments) {
                             <span class="detail-label">Färgfamilj:</span>
                             <span class="detail-value">${p.fargfamilj}</span>
                         </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Kemisk formel:</span>
-                            <span class="detail-value">${p.kemiskFormel || '-'}</span>
-                        </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Oljeabsorption:</span>
-                            <span class="detail-value">${p.oljeabsorption || '-'}</span>
-                        </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Hälsofara:</span>
-                            <span class="detail-value">${p.hälsofara || 'Ingen information'}</span>
-                        </div>
-                    </div>
-                    
-                    <div class="pigment-beskrivning">
-                        ${p.beskrivning || ''}
-                    </div>
-                    
-                    <div style="margin-top: 1rem; font-size: 0.9rem; color: #7f8c8d;">
-                        <strong>Tillverkare:</strong> ${p.tillverkareNamn}
                     </div>
                 </div>
             </div>
@@ -113,12 +94,12 @@ function displayResults(pigments) {
     resultsContainer.innerHTML = html;
 }
 
-// Lyssna på Enter-tangenten i sökfältet
+// Ladda pigment när sidan laddas
+loadPigments();
+
+// Lyssna på Enter-tangenten
 document.getElementById('searchInput').addEventListener('keypress', function(e) {
     if (e.key === 'Enter') {
         searchPigments();
     }
 });
-
-// Ladda pigment när sidan laddas
-loadPigments();
