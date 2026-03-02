@@ -620,4 +620,13 @@
       "vanligtNamn": "Koboltbrun",
       "kemiskBeteckning": "Kobolt-mangan",
       "ljusakthet": "I",
-      "ljusakthetText":
+      "ljusakthetText": "Utmärkt",
+    "transparens": "Täckande",
+    "fargfamilj": "Brun",
+    "hexFarg": "#8B4513",
+    "tillverkareNamn": "Old Holland, Blockx",
+    "kemiskFormel": "CoMn2O4",
+    "oljeabsorption": "30-40",
+    "hälsofara": "Giftigt vid inandning. Innehåller kobolt.",
+    "beskrivning": "Varm, mörk brun med utmärkt ljusäkthet."
+}
