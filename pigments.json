@@ -1,0 +1,79 @@
+{
+  "pigment": [
+    {
+      "pigmentKod": "PR254",
+      "vanligtNamn": "Pyrrolröd",
+      "kemiskBeteckning": "Diketopyrrolo-Pyrrol",
+      "ljusakthet": "I",
+      "ljusakthetText": "Utmärkt",
+      "transparens": "Täckande",
+      "fargfamilj": "Röd",
+      "hexFarg": "#C41E3A",
+      "tillverkareNamn": "Winsor & Newton: Winsor Red, Daniel Smith: Pyrrol Red",
+      "kemiskFormel": "C18H10N2O2",
+      "oljeabsorption": "30-35",
+      "hälsofara": "Ofarlig i pigmentform",
+      "beskrivning": "Modern organisk röd med hög färgstyrka. Utmärkt ljusäkthet."
+    },
+    {
+      "pigmentKod": "PB29",
+      "vanligtNamn": "Ultramarinblå",
+      "kemiskBeteckning": "Natrium-aluminium-sulfosilikat",
+      "ljusakthet": "I",
+      "ljusakthetText": "Utmärkt",
+      "transparens": "Halvtransparent",
+      "fargfamilj": "Blå",
+      "hexFarg": "#4166B5",
+      "tillverkareNamn": "Alla större märken",
+      "kemiskFormel": "Na8-10Al6Si6O24S2-4",
+      "oljeabsorption": "35-40",
+      "hälsofara": "Ofarlig",
+      "beskrivning": "Klassisk blå med rödaktig underton. Historiskt värdefullt pigment."
+    },
+    {
+      "pigmentKod": "PY150",
+      "vanligtNamn": "Nickel Azo Yellow",
+      "kemiskBeteckning": "Nickel-komplex azo",
+      "ljusakthet": "II",
+      "ljusakthetText": "Bra",
+      "transparens": "Transparent",
+      "fargfamilj": "Gul",
+      "hexFarg": "#E8B13E",
+      "tillverkareNamn": "Daniel Smith: Nickel Azo Yellow, Winsor & Newton: Winsor Yellow",
+      "kemiskFormel": "C16H10N2O6S·Ni",
+      "oljeabsorption": "40-45",
+      "hälsofara": "Innehåller nickel. Undvik inandning av pigmentpulver.",
+      "beskrivning": "Transparent gul med grönaktig ton. Mycket populär i akvarell."
+    },
+    {
+      "pigmentKod": "PG7",
+      "vanligtNamn": "Ftalocyaningrön",
+      "kemiskBeteckning": "Klorerad koppar-ftalocyanin",
+      "ljusakthet": "I",
+      "ljusakthetText": "Utmärkt",
+      "transparens": "Transparent",
+      "fargfamilj": "Grön",
+      "hexFarg": "#0D6B4A",
+      "tillverkareNamn": "Alla större märken, ofta som 'Phthalo Green'",
+      "kemiskFormel": "C32HCl15CuN8",
+      "oljeabsorption": "30-40",
+      "hälsofara": "Ofarlig i pigmentform",
+      "beskrivning": "Stark, kall grön med mycket hög färgstyrka."
+    },
+    {
+      "pigmentKod": "PR101",
+      "vanligtNamn": "Engelskt rött / Järnoxidröd",
+      "ljusakthet": "I",
+      "ljusakthetText": "Utmärkt",
+      "transparens": "Täckande",
+      "fargfamilj": "Röd",
+      "kemiskBeteckning": "Syntetisk järnoxid",
+      "hexFarg": "#B34B3A",
+      "tillverkareNamn": "Alla märken, många olika handelsnamn",
+      "kemiskFormel": "Fe2O3",
+      "oljeabsorption": "20-25",
+      "hälsofara": "Ofarlig",
+      "beskrivning": "Jordpigment med varma, stabila röda toner."
+    }
+  ]
+}
